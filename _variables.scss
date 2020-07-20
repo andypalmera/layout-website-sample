@@ -1,0 +1,124 @@
+$color-text-nav: #004289;
+$color-text-nav-hover: #007bff;
+$font-text-title: "Montserrat", sans-serif;
+$font-text-general: "Open Sans", sans-serif;
+$title-span-color: #74b5fc;
+$background-color-intro:#1445b3;
+$button-background:#007bff;
+$title-about:#283d50;
+$parrafo-about:#556877;
+$color-text-about:#444;
+$color-text-title-a:#283d50;
+$color-icon:#007bff;
+$background-color-services:#ecf5ff;
+$color-title-services:#283d50;
+$parrafo-services:#556877;
+$color-title-box-services:#111111;
+$color-text-services:#444444;
+$color-title-services-hover: #007bff;
+$icon-life-ring:#ff689b;
+$icon-hourglass: #e9bf06;
+$icon-snowflake: #3fcdc7;
+$icon-gem: #41cf2e;
+$icon-lemon: #d6ff22;
+$icon-paper-plane: #4680ff;
+
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin button {
+    text-decoration: none;
+    font-family: $font-text-general;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//  hola, soy mariel
+// lo ideal seria eliminar lo de abajo (variables, mixins)
+// pero lo dejo por si alguna lo uso
+
+$color-texto-navegador: #004289;
+$active-hover-focus: #007bff;
+$font-family: "Open Sans", sans-serif;
+$background-info-section: #1445b3;
+$tipografia-section-info: “Montserrat”, sans-serif;
+
+
+
+@mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Variables EMI //
+
+$background-why: #004a99;
+$background-why-header: #fff;
+$background-why-card-container: #00458f;
+$background-our-portafolio-title: #283d50;
+
+
+
+$background-our-button: #ecf5ff;
+$background-button: #007bff;
+
+
+$tipografia-title: “Montserrat”, sans-serif;
+$tipografia-text: "Open Sans", sans-serif;
+
+@mixin overlay-our {
+    width: 350px;
+    height: 250px; 
+
+    margin: 10px;
+    border-radius: 5px; 
+
+}
+@mixin overlay-our-img {
+    // width: auto;
+    height: 100%;
+    text-align: center;
+    transition: opacity 0.2s;  
+    background-color: rgba(40,60,81,0.4s);
+    opacity: 0;   
+}
+// VARIABLES ANDY PALMERA
+
+$montserrat-font: "Montserrat", sans-serif;
+$background-info-section: #1445b3;
+$color-texto-navegador: #004289;
+$letter-color-bluebackground: #eee;
+$tipografia-section-info: “Montserrat”, sans-serif;
+
+@mixin titles {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-family: $tipografia-section-info;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    padding-bottom: 30px;
+}
